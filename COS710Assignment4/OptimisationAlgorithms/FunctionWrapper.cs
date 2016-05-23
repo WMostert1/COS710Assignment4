@@ -5,5 +5,9 @@
         public OptimisationFunctions.FitnessFunction Function { get; set; }
 
         public string FunctionName { get; set; }
+
+        public double LowerBound { get; set; }
+
+        public double UpperBound { get; set; }
     }
 }

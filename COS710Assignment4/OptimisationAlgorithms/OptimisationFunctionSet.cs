@@ -8,10 +8,14 @@ namespace OptimisationAlgorithms
 
         public OptimisationFunctionSet()
         {
+            Functions = new List<FunctionWrapper>();
+
             Functions.Add(new FunctionWrapper()
             {
                 Function = new OptimisationFunctions.FitnessFunction(OptimisationFunctions.Ackley),
-                FunctionName = "Ackley's Function"
+                FunctionName = "Ackley's Function",
+                LowerBound = -5,
+                UpperBound = 5
             });
             //Add the other functions
         }
