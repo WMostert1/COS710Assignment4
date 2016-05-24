@@ -40,12 +40,14 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DifferentialEvolution.cs" />
     <Compile Include="FunctionWrapper.cs" />
     <Compile Include="IOptimiser.cs" />
     <Compile Include="OptimisationFunctions.cs" />
     <Compile Include="OptimisationFunctionSet.cs" />
     <Compile Include="PerformanceIndicator.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="PSO.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
