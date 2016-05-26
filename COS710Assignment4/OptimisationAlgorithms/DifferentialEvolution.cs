@@ -130,7 +130,12 @@ namespace OptimisationAlgorithms
             }
             Console.ReadLine();
             return new List<PerformanceIndicator>();
-        } 
+        }
+
+        public void setPopulationSize(int size)
+        {
+            this.PopulationSize = size;
+        }
 
         private class Agent
         {

@@ -1,8 +1,5 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace OptimisationAlgorithms
 {
@@ -139,8 +136,12 @@ namespace OptimisationAlgorithms
             Console.ReadLine();
             return new List<PerformanceIndicator>();
         }
-            
+
+        public void setPopulationSize(int size)
+        {
+            this.PopulationSize = size;
         }
+    }
 
         class Particle
         {

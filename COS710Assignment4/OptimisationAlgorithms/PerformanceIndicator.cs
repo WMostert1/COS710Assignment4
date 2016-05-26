@@ -8,6 +8,10 @@
 
         public string AlgorithmName { get; set; }
 
-        public string FunctionName { get; set; }
+        public FunctionWrapper Function { get; set; }
+
+        public int Iterations { get; set; }
+
+        public int DimensionNumber { get; set; }
     }
 }

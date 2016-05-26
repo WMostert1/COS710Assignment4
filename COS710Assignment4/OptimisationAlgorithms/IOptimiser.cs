@@ -4,8 +4,10 @@ namespace OptimisationAlgorithms
 {
     public interface IOptimiser
     {
-        void SetUp(); //Set's the parameter's for the specific algorithm
+        void setPopulationSize(int size);
 
         IEnumerable<PerformanceIndicator> Run(OptimisationFunctionSet Functions);
+
+
     }
 }

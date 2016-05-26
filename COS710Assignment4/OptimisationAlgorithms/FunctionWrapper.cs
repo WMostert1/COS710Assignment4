@@ -1,6 +1,6 @@
 ﻿namespace OptimisationAlgorithms
 {
-    public class FunctionWrapper
+    public class FunctionWrapper    //Assumes minimisation
     {
         public OptimisationFunctions.FitnessFunction Function { get; set; }
 
@@ -9,5 +9,7 @@
         public double LowerBound { get; set; }
 
         public double UpperBound { get; set; }
+
+        public double KnownGoal { get; set; }
     }
 }
